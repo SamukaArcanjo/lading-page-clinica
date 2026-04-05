@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/tratamentos.css">
+    <link rel="stylesheet" href="src/styles/sobre.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing Page Responsiva</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="nav_logo">
+                <i class="fa-solid fa-tooth">Dental</i>
+            </div>
+
+            <ul id="nav_list">
+                <li class="nav_item active"><a href="#home">inicio</a></li>
+
+                <li class="nav_item"><a href="#tratamentos">tratamentos</a></li>
+            
+                <li class="nav_item"><a href="#sobre">sobre</a></li>
+            </ul>
+
+            <button id="btn_default">Agende sua avaliação</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav_item"><a href="#home">inicio</a></li>
+
+                <li class="nav_item"><a href="#tratamentos">tratamentos</a></li>
+            
+                <li class="nav_item"><a href="#sobre">sobre</a></li>
+            </ul>
+
+            <button id="btn_default">Agende sua avaliação</button>
+        </div>
+    </header>
+
+    <main id="content">
+
+        <section id="home">
+            <div class="shape"></div>
+
+            <div id="cta">
+                <h1 class="title">
+                    Sorria com confiança
+                    <span>novamente</span>
+                </h1>
+
+                <p class="description">Tratamentos modernos, atendimento humanizado e resultados que você vê no espelho.</p>
+
+                <div id="cta_buttons">
+                    <a href="#" id="btn_default">
+                        Avaliação gratuita
+                    </a>
+                </div>
+
+                <div class="social_media_buttons">
+
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="banner">
+                <img src="images/dentista.png" alt="dentista">
+
+            </div>
+        </section>
+
+        <section id="tratamentos">
+            <h2 class="section-title">Tratamentos</h2>
+            <h3 class="section-subtitle">Nossos Principais tratamentos</h3>
+
+            <div id="nossos_tratamentos">
+                <div class="tratamento ">
+
+                    <img src="images/tratamentos/clareamento.png" class="tratamento-image" alt="clareamento_dental">
+
+                    <h3 class="title">clareamento Dental</h3>
+
+                    <span class="description">
+                        Deixe seu sorriso mais branco e bonito em poucas sessões.
+                    </span>
+
+                </div>
+
+                <div class="tratamento">
+
+                    <img src="images/tratamentos/lente_de_contato.png" class="tratamento-image" alt="clareamento_dental">
+
+                    <h3 class="title">Lentes de Contato Dental</h3>
+
+                    <span class="description">
+                        Transforme completamente seu sorriso com estética avançada.
+                    </span>
+                
+                </div>
+
+                <div class="tratamento">
+
+                    <img src="images/tratamentos/ortodontia.png" class="tratamento-image" alt="clareamento_dental">
+
+                    <h3 class="title">Ortodontia (Aparelho)</h3>
+
+                    <span class="description">
+                        Alinhe seus dentes e conquiste um sorriso perfeito.
+                    </span>
+                
+                </div>
+            </div>
+
+        </section>
+
+        <section id="sobre">
+    <div class="sobre_container">
+
+        <div class="sobre_img">
+            <img src="images/escritorio_dentista.png" alt="Clínica odontológica">
+        </div>
+
+        <div class="sobre_content">
+            <h2>Mais do que tratamentos, transformamos <span>sorrisos</span></h2>
+
+            <p>
+                Sabemos que muitas pessoas deixam de sorrir por insegurança ou experiências ruins no passado.
+                Por isso, nossa missão é oferecer um atendimento acolhedor, transparente e focado em resultados reais.
+            </p>
+
+            <p>
+                Utilizamos tecnologia moderna e técnicas atualizadas para garantir tratamentos eficientes,
+                seguros e com o máximo de conforto.
+            </p>
+
+            <div class="sobre_diferenciais">
+                <div class="item">✔ Atendimento humanizado</div>
+                <div class="item">✔ Tecnologia moderna</div>
+                <div class="item">✔ Resultados naturais</div>
+            </div>
+
+            <div id="cta_buttons">
+                <a href="#" id="btn_default">
+                    Avaliação gratuita
+                </a>
+            </div>
+        </div>
+
+    </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="nav_bar">
+            <p>© 2026 Samuel Arcanjo</p>
+
+            <div class="social_media_buttons">
+
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

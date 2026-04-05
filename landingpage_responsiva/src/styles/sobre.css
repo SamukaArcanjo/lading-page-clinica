@@ -1,0 +1,56 @@
+#sobre {
+    padding: 80px 8%;
+    background-color: rgb(214, 242, 248);
+}
+
+.sobre_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* IMAGEM */
+.sobre_img {
+    width: 50%;
+}
+
+.sobre_img img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* TEXTO */
+.sobre_content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sobre_content h2 {
+    font-size: 2.5rem;
+    color: #1d1d1d;
+}
+
+.sobre_content h2 span {
+    color: rgb(57, 146, 210);
+}
+
+.sobre_content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* DIFERENCIAIS */
+.sobre_diferenciais {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre_diferenciais .item {
+    font-weight: 500;
+    color: #2a7de1;
+}

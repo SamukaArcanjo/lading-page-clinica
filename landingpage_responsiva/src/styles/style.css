@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 242, 248);
+}
+
+#btn_default {
+    color:  rgb(214, 242, 248);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(57, 146, 210);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba( 0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    transition: 0.3s;
+}
+
+#btn_default:hover {
+    background-color: rgb(70, 178, 255);
+    transform: translateY(-1px);
+
+}
+
+section {
+    padding: 20px 8%;
+}
+
+.social_media_buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social_media_buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba( 0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social_media_buttons a:hover {
+    box-shadow: 0px 0px 12px 12px rgba( 0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: rgb(57, 146, 210);
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.section-subtitle {
+    font-size: 36px;
+}

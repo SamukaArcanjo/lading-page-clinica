@@ -1,0 +1,14 @@
+footer {
+    background-color: rgb(42, 113, 164);
+    padding: 20px 8%;
+    width: 100%;
+
+
+    #nav_bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+}
